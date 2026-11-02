@@ -1,3 +1,20 @@
+## 최신 과제: Multi Manager
+
+이번 과제의 코드와 테스트는 [multi-manager](./multi-manager) 폴더에 있습니다. 기존 실습과 별도 프로젝트로 실행합니다.
+
+- 관리자 3명 이상 등록 및 전원 승인 후 보상률 변경
+- 비관리자 및 승인 부족 시 지정된 require 오류 메시지
+- 중복 승인 방지와 변경 후 재승인을 포함한 테스트 11개 통과
+- 구현 설명 및 참고 출처: [과제 README](./multi-manager/README.md)
+
+```sh
+cd multi-manager
+npm ci
+npm test
+```
+
+---
+
 # Solidity Learning
 
 Hardhat와 TypeScript를 사용하는 블록체인프로그래밍 실습 저장소입니다.
